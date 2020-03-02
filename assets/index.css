@@ -1,0 +1,238 @@
+.intro {
+  text-align: center;
+  background-color: whitesmoke;
+  background-image: url("trees.jpg");
+  background-size: cover;
+  padding: 4%;
+}
+.quotes {
+  padding: 6%;
+}
+q {
+  font-size: 4vw;
+  font-family: "Bowlby One SC";
+}
+.profile {
+  width: 100%;
+  height: 10%;
+}
+.prof {
+  width: 15%;
+  height: 15%;
+  border: 2px solid black;
+}
+
+h2,
+h3,
+h4 {
+  letter-spacing: 1px;
+  font-family: "Roboto Mono";
+  color: whitesmoke;
+}
+h2 {
+  font-family: "Roboto Mono";
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  color: whitesmoke;
+}
+/* about */
+.about {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  background-color: whitesmoke;
+}
+.technology {
+  width: 40%;
+  height: 100%;
+  border-right: 10px solid black;
+}
+.board {
+  width: 90%;
+  height: 100%;
+  box-shadow: 5px 5px 5px 5px rgb(99, 97, 97);
+}
+.me {
+  margin-left: 5%;
+  width: 100%;
+}
+p {
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-family: "Roboto Mono";
+}
+/* skills */
+.skills {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 3%;
+  background-image: url(ana.svg);
+  background-repeat: no-repeat;
+}
+.skills h2 {
+  color: black;
+}
+.skills ul li {
+  width: 20%;
+  list-style: none;
+  font-size: 3vh;
+  background-color: black;
+  font-family: "Roboto Mono";
+  letter-spacing: 3px;
+  color: white;
+  margin-bottom: 1%;
+  padding: 1%;
+  transition: 1s ease-in-out;
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px 5px rgb(99, 97, 97);
+}
+.skills ul li:hover {
+  transform: translateX(400px) rotate(10deg);
+}
+.skills ul li:hover .desc {
+  transform: translateX(-400px) rotate(-10deg);
+  display: block;
+}
+.desc {
+  margin-top: 2%;
+  display: none;
+  background: white;
+  color: black;
+  padding: 1%;
+  transition: 1s ease-in-out;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+/* projects */
+.projects .each-project a {
+  color: whitesmoke;
+}
+.git {
+  color: white;
+  width: 60px;
+  height: 60px;
+}
+.projects .each-project p {
+  width: 100%;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 10%;
+  flex-wrap: wrap;
+  background-color: black;
+  padding-top: 2%;
+}
+.each-project {
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  background-image: url(black3.png);
+  margin-left: 2%;
+  margin-bottom: 2%;
+  background-color: white;
+}
+.project-gif {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  border-radius: 20px;
+}
+.project-image {
+  padding: 4%;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 20px;
+  transition: 2s ease-in-out;
+  box-shadow: 5px 5px 5px rgb(54, 52, 52);
+}
+.project-image:hover {
+  transform: rotateY(360deg);
+}
+.project-detail {
+  background-color: rgb(191, 222, 233);
+  color: black;
+  margin-left: 2%;
+  width: 50%;
+  padding: 1%;
+  border: 2px solid black;
+  border-radius: 0px 40px 0px 40px;
+}
+/* socials */
+.contacts {
+  padding: 8%;
+  background-color: whitesmoke;
+  background-image: url(soc.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.greet {
+  width: 30%;
+}
+.message {
+  margin-top: 30%;
+  font-size: 5vh;
+  font-family: "Abril Fatface";
+}
+.message-p {
+  font-size: 3vh;
+  font-weight: bold;
+}
+.socials {
+  width: 40%;
+}
+.social-list {
+  list-style: none;
+  right: 0px;
+}
+.social-icon {
+  width: 10%;
+  height: 10%;
+}
+.social-list li {
+  background-color: turquoise;
+  margin-bottom: 2%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.social-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 3vh;
+}
+.social-list li a h3 {
+  color: black;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Roboto Mono";
+}
+.back {
+  position: absolute;
+  margin-top: 2%;
+  text-decoration: none;
+  color: black;
+  font-size: 3vh;
+  font-family: "Roboto Mono";
+  background-color: whitesmoke;
+  padding: 1%;
+  border: 2px solid black;
+}
+.foot-link {
+  text-decoration: none;
+  color: white;
+}
+/* .skill-list {
+  background-color: black;
+}
+ */
